@@ -4,29 +4,43 @@ body,
 .view {
   height: 100%; }
 
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 12%;
+  }
+
 /* Full Page Carousel itself*/
 .carousel {
   height: 100%; }
-  .carousel .carousel-inner {
+  .homevideo {
     height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
 
 /* Navbar animation */
 .navbar {
   background-color: rgba(0, 0, 0, 0.2); }
 
 .top-nav-collapse {
-  background-color: rgba(255, 255, 255, 0.664); 
+  background-color: rgba(0, 0, 0, 0.664); 
   color: black !important;
 }
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color:rgba(0, 0, 0, 0.37); } }
+    background-color:rgba(0, 0, 0, 0.685); } }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: #1C2331; }
+  background-color: #1C2331; 
+}
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #box-icon{
+    background-color:rgba(109, 109, 109, 0.137);
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+  }
